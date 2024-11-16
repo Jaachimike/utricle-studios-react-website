@@ -14,6 +14,7 @@ export default {
         // Configure your color palette here
         'utricleBlack': '#0C0F16',
         'utricleGrey': '#777777',
+        'utricleBrown': '#BE6D5C'
         // 'cerebralGrey': {
         //   500: '#5B5B5B',
         //   600: '#1D3444',

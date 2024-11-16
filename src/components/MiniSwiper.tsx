@@ -33,8 +33,8 @@ const MiniSwiper = () => {
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         {works.map(work => (
           <SwiperSlide>
-            <div className="flex space-x-9">
-              <div>
+            <div className="flex flex-col items-center lg:items-start lg:flex-row lg:space-x-9 px-4 ">
+              <div className="flex justify-center mb-6 lg:mb-0">
                 {" "}
                 <ReactPlayer url={work.youtubeVideoLink} controls={true} />
               </div>
