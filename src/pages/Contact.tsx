@@ -6,7 +6,8 @@ const Contact = () => {
     <div>
       <ContactHeroSection />
       <div className="width-container py-32 flex flex-col lg:space-x-32 lg:flex-row ">
-        <div className="w-6/12">
+        {/* get in touch */}
+        <div className="lg:w-6/12 mb-16 lg:mb-0">
           <h2 className="font-bold text-3xl mb-4 md:mb-12 text-utricleBlack">
             Get In Touch.
           </h2>
@@ -35,6 +36,7 @@ const Contact = () => {
           </form>
         </div>
 
+        {/* contact info */}
         <div className="flex-1 *:mb-12">
           <div>
             <h2 className="font-bold text-3xl mb-4 md:mb-6 text-utricleBlack">
